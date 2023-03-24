@@ -1,0 +1,134 @@
+/* HEADER */
+html {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Sono', sans-serif;
+    scroll-behavior:smooth;
+}
+
+body {
+    background-color: rgba(92, 165, 207, 0.443);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header_style {
+    background-color: rgb(32, 32, 117);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 100;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 32, 117);
+}
+
+.logo_style {
+    width: 150px;
+    height: 60px;
+    margin-left: 15px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZB6LMAFQuA75Bru3SSOtkmtRvIQSR19WI6Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.navWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.navList {
+    list-style-type: none;
+    text-align: right;
+}
+
+.navItem a {
+    color: #ffffff;
+}
+
+
+/* MAIN */
+.heroWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    max-height: 300px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.452)), url("./assets/images/bg_image.png");
+    background-repeat: no-repeat;
+    background-position: centre;
+    background-size: cover;
+}
+
+.maintitle_style {
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    /* padding: 50px; */
+    /* text-shadow: 2px 2px rgba(0, 0, 0, 0.639); */
+}
+
+.subtitle_style {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.contactButton {
+    border: 2 px solid black;
+    background-color: #02bb40;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    border-radius: 8px;
+    width: 70px;
+    height: 35px;
+    width: 110px;
+    padding: 8
+}
+
+.contactButton:hover {
+    background-color: rgb(255, 164, 18);
+    
+} 
+
+.sections {
+    text-align: left;
+    font-style: oblique;
+}
+
+
+
+p {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+button {
+    color:rgb(0, 0, 0);
+    background-color: rgba(199, 208, 210, 0.842);
+    border-radius: 6px;
+    padding: 4px 7px;
+}
+
+.footer {
+    font-weight: 600;
+}
+
+
