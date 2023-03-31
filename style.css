@@ -1,7 +1,6 @@
 /* HEADER */
 html {
-    font-family: 'Crimson Text', serif;
-    font-family: 'Sono', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     scroll-behavior:smooth;
 }
 
@@ -136,6 +135,40 @@ body {
     width: 160px;
     height: 160px;
     border-radius: 5px;
+}
+
+
+.link_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact_link {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.github_icon {
+    background-image: url(/assets/others/github.png);
+}
+
+.linkedin_icon {
+    background-image: url(/assets/others/linkedin.png);
+}
+
+.phone_icon {
+    background-image: url(/assets/others/phone.png);
 }
 
 .sections {
